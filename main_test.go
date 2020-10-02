@@ -7,6 +7,6 @@ func TestHello(t *testing.T) {
 	expected := "Hello, Shreyas"
 
 	if observed != expected {
-		t.Errof("got %q, want %q", observed, expected)
+		t.Errorf("got %q, want %q", observed, expected)
 	}
 }
